@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/another-wordpress-classifieds-"
 "plugin\n"
 "POT-Creation-Date: 2014-09-09 22:44:34+00:00\n"
-"PO-Revision-Date: 2014-10-27 23:33+0100\n"
+"PO-Revision-Date: 2014-10-28 14:31+0100\n"
 "Last-Translator: Dennis Geus <dennis@hands-off.it>\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -358,7 +358,7 @@ msgstr "AWPCP Debug"
 
 #: frontend/widget-latest-ads.php:7
 msgid "AWPCP Latest Ads"
-msgstr "AWPCP Latest Ads"
+msgstr "AWPCP Recente advertenties"
 
 #: includes/settings-api.php:147
 msgid "AWPCP Main page"
@@ -367,15 +367,15 @@ msgstr "AWPCP Main page"
 #: admin/templates/admin-panel-debug.tpl.php:11
 msgctxt "debug page"
 msgid "AWPCP Pages"
-msgstr "AWPCP Pages"
+msgstr "AWPCP Pagina's"
 
 #: frontend/widget-random-ad.php:9
 msgid "AWPCP Random Ads"
-msgstr "AWPCP Random Ads"
+msgstr "AWPCP Random"
 
 #: frontend/widget-search.php:6
 msgid "AWPCP Search Ads"
-msgstr "AWPCP Search Ads"
+msgstr "AWPCP Zoek advertenties"
 
 #: admin/templates/admin-panel-debug.tpl.php:13
 msgctxt "debug page"
@@ -455,16 +455,16 @@ msgstr "Geaccepteerde betalings methode"
 #: frontend/templates/email-send-ad-access-key.tpl.php:6
 #: frontend/templates/email-send-all-ad-access-keys.tpl.php:8
 msgid "Access Key"
-msgstr "Access Key"
+msgstr "toegangscode"
 
 #: includes/views/admin/account-balance/class-account-balance-page.php:16
 msgid "Account Balance"
-msgstr "Account Balance"
+msgstr "saldo"
 
 #: admin/admin-panel-users.php:39
 msgctxt "credit system on users table"
 msgid "Account Balance"
-msgstr "Account Balance"
+msgstr "Saldo"
 
 #: includes/settings-api.php:305
 msgid ""
@@ -512,7 +512,7 @@ msgstr "Categorie toevoegen"
 
 #: frontend/page-place-ad.php:210
 msgid "Ad Category field is required"
-msgstr "Ad Category field is required"
+msgstr "Categorie veld is vereist"
 
 #: frontend/templates/page-place-ad-details-step.tpl.php:156
 msgctxt "ad details form"
@@ -545,7 +545,7 @@ msgstr "Ad Listings page layout"
 
 #: admin/user-panel.php:44
 msgid "Ad Management"
-msgstr "Ad Management"
+msgstr "Advertentie beheer"
 
 #: frontend/templates/page-place-ad-details-step.tpl.php:34
 msgid "Ad Owner"
@@ -557,7 +557,7 @@ msgstr "Geplaatst"
 
 #: includes/settings-api.php:456
 msgid "Ad Posted Message"
-msgstr "Ad Posted Message"
+msgstr "Geplaatst bericht"
 
 #: includes/settings-api.php:170
 msgid "Ad Renew"
@@ -565,11 +565,11 @@ msgstr "Verlengen"
 
 #: includes/settings-api.php:171
 msgid "Ad Renew email threshold"
-msgstr "Ad Renew email threshold"
+msgstr "Verlengings drempel"
 
 #: includes/settings-api.php:492
 msgid "Ad Renewed Message"
-msgstr "Ad Renewed Message"
+msgstr "Verleng bericht"
 
 #: admin/admin-panel-listings-table.php:271
 #: frontend/templates/page-place-ad-details-step.tpl.php:77
@@ -781,7 +781,7 @@ msgstr "Sta HTML toe in advertentie tekst"
 
 #: includes/settings-api.php:193
 msgid "Allow HTML in ad text (Not recommended)."
-msgstr "Allow HTML in ad text (Not recommended)."
+msgstr "Sta HTML toe in advertentie tekst (Niet aanbevolen)."
 
 #: includes/settings-api.php:185
 msgid "Allow Regions modification"
@@ -809,7 +809,7 @@ msgstr "Bijna klaar... nog een stap!"
 
 #: includes/settings-api.php:74
 msgid "American"
-msgstr "American"
+msgstr "Amerikaans"
 
 #: admin/templates/admin-panel-users-balance-form.tpl.php:12
 msgid "Amount"
@@ -1115,7 +1115,7 @@ msgstr "Er moet een geldige categorie ID zijn om de advertentie weer te geven"
 
 #: awpcp.php:525
 msgid "Category Icons"
-msgstr "Category Icons"
+msgstr "Categorie pictogrammen"
 
 #: admin/templates/admin-sidebar.tpl.php:80
 msgid "Category Icons Premium Module"
@@ -1844,15 +1844,13 @@ msgid "Enabled external SMTP server (if emails not processing normally)."
 msgstr "Enabled external SMTP server (if emails not processing normally)."
 
 #: admin/admin-panel-listings-table.php:184
-#, fuzzy
 msgid "End Date"
-msgstr "Datum formaat"
+msgstr "Eind datum"
 
 #: frontend/templates/page-place-ad-details-step.tpl.php:65
-#, fuzzy
 msgctxt "ad details form"
 msgid "End Date"
-msgstr "Datum formaat"
+msgstr "Eind datum"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:77
 msgid "End Date (mm/dd/yyyy)"
@@ -1867,14 +1865,12 @@ msgstr ""
 "number %s"
 
 #: frontend/templates/page-place-ad-details-step.tpl.php:1
-#, fuzzy
 msgid "Enter Ad Details"
-msgstr "Advertentie details"
+msgstr "Vul Advertentie details in"
 
 #: admin/admin-panel.php:731
-#, fuzzy
 msgid "Enter the category name"
-msgstr "Categorie naam (Totaal advertenties)"
+msgstr "Vul categorie naam in"
 
 #: includes/helpers/captcha.php:39
 msgctxt "CAPTCHA"
@@ -1882,9 +1878,8 @@ msgid "Enter the value of the following sum: %d + %d"
 msgstr "Vul de uitkomst in van de volgende som: %d + %d"
 
 #: frontend/templates/page-edit-ad-email-key-step.tpl.php:28
-#, fuzzy
 msgid "Enter your Ad access key"
-msgstr "Advertentie e-mail en toegangscode"
+msgstr "Vul de advertentie toegangscode in"
 
 #: frontend/templates/page-edit-ad-email-key-step.tpl.php:22
 #: frontend/templates/page-edit-ad-send-access-key-step.tpl.php:22
@@ -1892,16 +1887,13 @@ msgid "Enter your email address"
 msgstr "Vul jouw e-mail adres in"
 
 #: functions.php:1876 includes/helpers/class-modules-manager.php:169
-#, fuzzy
 msgid "Error"
-msgstr ""
-"Er is een onverwachte fout opgetreden. Er is geen advertentie gespecificeerd."
+msgstr "Fout"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:30
-#, fuzzy
 msgctxt "csv importer"
 msgid "Errors"
-msgstr "%d van %d Advertenties zijn verwijderd. %d genereerde fouten."
+msgstr "Fouten"
 
 #: includes/settings-api.php:75
 msgid "European"
@@ -1929,10 +1921,9 @@ msgid "Existing Images"
 msgstr "Bestaande afbeeldingen"
 
 #: admin/templates/admin-panel-media-manager.tpl.php:31
-#, fuzzy
 msgctxt "media manager"
 msgid "Existing files for Ad %s."
-msgstr "%s Advertentie Management Paneel"
+msgstr "Bestaande bestanden voor Advertentie %s"
 
 #: admin/templates/admin-panel-debug.tpl.php:112
 msgctxt "alternate CA info for cURL"
@@ -1940,18 +1931,16 @@ msgid "Exists"
 msgstr "Bestaat"
 
 #: frontend/templates/payments-billing-form.tpl.php:46
-#, fuzzy
 msgid "Expiration Date"
-msgstr "Datum formaat"
+msgstr "Uiterste datum"
 
 #: includes/settings/class-listings-moderation-settings.php:23
 msgid "Expire free ads after how many days? (0 for no expiration)."
 msgstr "Expire free ads after how many days? (0 for no expiration)."
 
 #: templates/email/listing-is-about-to-expire-notification.plain.tpl.php:7
-#, fuzzy
 msgid "Expires on"
-msgstr "An email will be sent when the Ad expires."
+msgstr "Een e-mail wordt verzonden wanneer een advertentie verloopt."
 
 #: import.php:875
 msgid ""
@@ -1971,9 +1960,8 @@ msgid "Extra Fields"
 msgstr "Extra velden"
 
 #: admin/templates/admin-sidebar.tpl.php:75
-#, fuzzy
 msgid "Extra Fields Module"
-msgstr "Authorize.Net Module"
+msgstr "Extra Fields Module"
 
 #: includes/settings-api.php:450
 msgid "FROM email address for outgoing emails"
@@ -1984,9 +1972,8 @@ msgid "Facebook API returned the following errors: %s."
 msgstr "Facebook API returned the following errors: %s."
 
 #: admin/admin-panel-settings.php:166
-#, fuzzy
 msgid "Facebook Config Diagnostics"
-msgstr "Diagnostics"
+msgstr "Facebook Config Diagnostics"
 
 #: admin/templates/admin-panel-settings-facebook-settings.tpl.php:137
 #: includes/views/admin/listings/class-send-listing-to-facebook-admin-page.php:31
@@ -2014,62 +2001,45 @@ msgstr "Facebook Page"
 #: admin/admin-panel-listings-table.php:191
 #: admin/admin-panel-listings-table.php:251
 #: admin/admin-panel-listings-table.php:430
-#, fuzzy
 msgid "Featured"
-msgstr ""
-"AWPCP 3.0 includes several modifications to the <strong>Search Ads</strong>, "
-"<strong>Featured Ads</strong> and <strong>Latest Ads</strong> widgets. For "
-"example, the Latest Ads widget can now be used in multiple sidebars. Also, "
-"there is a new Widget to show Random Ads."
+msgstr "Uitgelicht"
 
 #: admin/admin-panel-fees-table.php:116 awpcp.php:553
-#, fuzzy
 msgid "Featured Ads"
-msgstr ""
-"AWPCP 3.0 includes several modifications to the <strong>Search Ads</strong>, "
-"<strong>Featured Ads</strong> and <strong>Latest Ads</strong> widgets. For "
-"example, the Latest Ads widget can now be used in multiple sidebars. Also, "
-"there is a new Widget to show Random Ads."
+msgstr "Uitgelichte advertenties"
 
 #: admin/templates/admin-sidebar.tpl.php:70
 msgid "Featured Ads Module"
 msgstr "Featured Ads Module"
 
 #: includes/payment-term-fee-type.php:8
-#, fuzzy
 msgctxt "payment term type"
 msgid "Fee"
-msgstr "Add Fee plan"
+msgstr "Honorarium"
 
 #: admin/templates/admin-sidebar.tpl.php:65
-#, fuzzy
 msgid "Fee Per Category Module"
-msgstr "Category Icons Premium Module"
+msgstr "Honorarium per categorie module"
 
 #: includes/settings/class-payment-general-settings.php:26
-#, fuzzy
 msgid "Fee Plan sort direction"
-msgstr "Add Fee plan"
+msgstr "Honorarium Sorteer richting"
 
 #: includes/settings/class-payment-general-settings.php:25
-#, fuzzy
 msgid "Fee Plan sort order"
-msgstr "Add Fee plan"
+msgstr "Honorarium Sorteer volgorde"
 
 #: awpcp.php:560
-#, fuzzy
 msgid "Fee per Category"
-msgstr "Standaard aantal advertenties per pagina"
+msgstr "Honorarium per categorie"
 
 #: admin/admin-panel-fees.php:15 admin/templates/admin-panel-home.tpl.php:67
-#, fuzzy
 msgid "Fees"
-msgstr "AWPCP Classifieds Management System - Listing Fees Management"
+msgstr "Honoraria"
 
 #: import.php:463
-#, fuzzy
 msgid "File %s does not exists."
-msgstr "Kan tijdelijk bestand %s niet schrijven"
+msgstr "Bestand %s bestaat niet"
 
 #: includes/helpers/widgets/class-file-manager-component.php:26
 msgid "File Manager component is not properly configured"
@@ -2097,14 +2067,12 @@ msgid "Filter"
 msgstr "Filter"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:10
-#, fuzzy
 msgid "Final Import Results"
-msgstr "Category Handling on Import"
+msgstr "Import resultaat"
 
 #: frontend/widget-search.php:45
-#, fuzzy
 msgid "Find ads by Contact Name"
-msgstr "Categorie naam (Totaal advertenties)"
+msgstr "Vind advertenties op contact naam"
 
 #: frontend/page-edit-ad.php:325 frontend/page-place-ad.php:1141
 #: frontend/templates/page-place-ad-preview-step.tpl.php:17
@@ -2112,23 +2080,20 @@ msgid "Finish"
 msgstr "Beeindigen"
 
 #: frontend/templates/payments-billing-form.tpl.php:69
-#, fuzzy
 msgid "First Name"
-msgstr "Datum"
+msgstr "Voornaam"
 
 #: frontend/placeholders.php:814
-#, fuzzy
 msgid "Flag Ad"
-msgstr "Er is een fout opgetreden bij het markeren van de advertentie."
+msgstr "Markeren"
 
 #: admin/admin-panel-listings-table.php:252
 msgid "Flagged"
 msgstr "Gemarkeerd"
 
 #: frontend/templates/page-search-ads.tpl.php:38
-#, fuzzy
 msgid "For Ads Posted By"
-msgstr "Geplaatst"
+msgstr "Voor advertenties geplaatst door"
 
 #: includes/helpers/captcha.php:87
 msgid "For security reasons, you must pass the remote ip to reCAPTCHA."
@@ -2147,13 +2112,8 @@ msgid "Force secure URLs on payment pages"
 msgstr "Force secure URLs on payment pages"
 
 #: includes/settings-api.php:378
-#, fuzzy
 msgid "Form"
-msgstr ""
-"A CAPTCHA is a program to ensure only humans are posting Ads to your "
-"website. Using a CAPTCHA will reduce the SPAM and prevent bots from posting "
-"on your website. If checked, an additional form field will be added to the "
-"Place Ad and Reply to Ad forms."
+msgstr "Formulier"
 
 #: admin/templates/admin-sidebar.tpl.php:108
 msgid "Found a bug?"
@@ -2164,15 +2124,13 @@ msgid "Free Ads expiration threshold"
 msgstr "Free Ads expiration threshold"
 
 #: includes/payment-term-fee-type.php:35
-#, fuzzy
 msgid "Free Listing"
-msgstr "30 dagen lijst"
+msgstr "Honorarium lijst"
 
 #: includes/settings-api.php:84
-#, fuzzy
 msgctxt "settings"
 msgid "Full Display String"
-msgstr "Display and require Terms of Service"
+msgstr "Volledig scherm string"
 
 #: includes/settings-api.php:83
 msgctxt "settings"
@@ -2186,28 +2144,24 @@ msgstr ""
 "the Date Format and Time Format settings above."
 
 #: includes/settings-api.php:42 install.php:266
-#, fuzzy
 msgid "General"
-msgstr "Configure General Options"
+msgstr "Algemeen"
 
 #: includes/settings-api.php:447
-#, fuzzy
 msgid "General Email Settings"
-msgstr "Configure General Options"
+msgstr "Algemene E-mail instellingen"
 
 #: includes/settings-api.php:54 includes/settings-api.php:518
-#, fuzzy
 msgid "General Settings"
-msgstr "Configure General Options"
+msgstr "Algemene instellingen"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:133
 msgid "Generate errors if Category not found"
 msgstr "Generate errors if Category not found"
 
 #: admin/templates/admin-sidebar.tpl.php:29
-#, fuzzy
 msgid "Get a Premium Module!"
-msgstr "Buy a Premium Module"
+msgstr "Get a Premium Module"
 
 #: admin/templates/admin-sidebar.tpl.php:12
 msgid "Give it a good rating on WordPress.org."
@@ -2224,28 +2178,24 @@ msgid "Go to the %s section to manage the Images and Attachments for this Ad."
 msgstr "Go to the %s section to manage the Images and Attachments for this Ad."
 
 #: includes/helpers/wp-list-table.php:500
-#, fuzzy
 msgid "Go to the first page"
-msgstr "Datum"
+msgstr "Ga naar de eerste pagina"
 
 #: includes/helpers/wp-list-table.php:534
-#, fuzzy
 msgid "Go to the last page"
-msgstr "Huidige pagina"
+msgstr "Ga naar de laatste pagina"
 
 #: includes/helpers/wp-list-table.php:527
 msgid "Go to the next page"
 msgstr "Ga naar de volgende pagina"
 
 #: includes/helpers/wp-list-table.php:507
-#, fuzzy
 msgid "Go to the previous page"
-msgstr "Huidige pagina"
+msgstr "Ga naar de vorige pagina"
 
 #: awpcp.php:567
-#, fuzzy
 msgid "Google Checkout"
-msgstr "Checkout"
+msgstr "Google Checkout"
 
 #: admin/templates/admin-sidebar.tpl.php:90
 msgid "Google Checkout Payment Module"
@@ -2269,16 +2219,14 @@ msgid "Height of the thumbnail for the primary image shown in Single Ad view."
 msgstr "Height of the thumbnail for the primary image shown in Single Ad view."
 
 #: includes/settings-api.php:353
-#, fuzzy
 msgid "Height of the thumbnail images."
-msgstr "Afbeeldingen bijsnijden?"
+msgstr "Hoogte van de miniatuur afbeeldingen"
 
 #: frontend/templates/email-ad-awaiting-verification.tpl.php:2
 #: frontend/templates/email-ad-enabled-user.tpl.php:2
 #: frontend/templates/email-send-ad-access-key.tpl.php:1
-#, fuzzy
 msgid "Hello %s,"
-msgstr "%s en %s."
+msgstr "Hallo %s,"
 
 #: admin/templates/admin-quick-start-guide-notice.tpl.php:2
 msgid ""
@@ -2325,14 +2273,12 @@ msgid "Hide contact name to anonymous users?"
 msgstr "Hide contact name to anonymous users?"
 
 #: frontend/templates/widget-categories-form.tpl.php:9
-#, fuzzy
 msgid "Hide empty categories."
-msgstr "Empty ZIP Archive"
+msgstr "Verberg lege categorie"
 
 #: includes/settings-api.php:274
-#, fuzzy
 msgid "Hide empty categories?"
-msgstr "Empty ZIP Archive"
+msgstr "Verberg lege categorieën"
 
 #: includes/settings-api.php:317
 msgid "Hide images until admin approves them"
@@ -2351,9 +2297,8 @@ msgid "Highest number used in aithmetic operation."
 msgstr "Highest number used in aithmetic operation."
 
 #: frontend/templates/page-place-ad-details-step.tpl.php:196
-#, fuzzy
 msgid "I agree to the terms of service"
-msgstr "Display and require Terms of Service"
+msgstr "Ik ga akkoord met de voorwaarden"
 
 #: admin/templates/admin-quick-start-guide-notice.tpl.php:9
 msgctxt "Quick Start Guide"
@@ -2455,9 +2400,8 @@ msgstr ""
 "associated with their Ads."
 
 #: includes/settings-api.php:186
-#, fuzzy
 msgid "If enabled, users will be allowed to search Ads in multiple regions."
-msgstr "Allow users to search Ads in multiple regions"
+msgstr "If enabled, users will be allowed to search Ads in multiple regions."
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:62
 msgctxt "csv-importer"
@@ -2551,24 +2495,20 @@ msgstr ""
 "button"
 
 #: includes/settings-api.php:310
-#, fuzzy
 msgid "Image"
-msgstr "Verwijder afbeelding"
+msgstr "Afbeelding"
 
 #: includes/settings-api.php:324
-#, fuzzy
 msgid "Image File Settings"
-msgstr "Verwijder afbeelding"
+msgstr "Image file settings"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:121
-#, fuzzy
 msgid "Image Separator"
-msgstr "Datum scheidingsteken"
+msgstr "Afbeeldings scheiding"
 
 #: includes/settings-api.php:314
-#, fuzzy
 msgid "Image Settings"
-msgstr "Verwijder afbeelding"
+msgstr "Afbeeldings instellingen"
 
 #: frontend/templates/page-place-ad-upload-images-step.tpl.php:5
 msgid ""
@@ -2583,27 +2523,23 @@ msgid "Image file names were found but no ZIP was provided."
 msgstr "Image file names were found but no ZIP was provided."
 
 #: frontend/templates/page-place-ad-upload-images-step.tpl.php:22
-#, fuzzy
 msgid "Image slots available"
-msgstr "Verwijder afbeelding"
+msgstr "Image slots available"
 
 #: admin/admin-panel-fees-table.php:106
 #: admin/templates/admin-panel-fees-entry-form.tpl.php:56
 #: includes/settings/class-payment-general-settings.php:11
-#, fuzzy
 msgid "Images Allowed"
-msgstr "Advertenties toegestaan"
+msgstr "Afbeeldingen toegestaan"
 
 #: includes/payment-terms-table.php:35
-#, fuzzy
 msgctxt "place ad payment terms column headers"
 msgid "Images Allowed"
-msgstr "Advertenties toegestaan"
+msgstr "Afbeeldingen toegestaan"
 
 #: admin/admin-panel-listings-table.php:256
-#, fuzzy
 msgid "Images Awaiting Approval"
-msgstr "Advertenties wachten op goedkeuring"
+msgstr "Afbeeldingen wachten op goedkeuring"
 
 #: functions.php:2089
 msgid "Images on Ad \"%s\" are awaiting approval"
@@ -2621,19 +2557,16 @@ msgstr ""
 
 #: admin/admin-panel.php:268
 #: admin/templates/admin-panel-csv-importer.tpl.php:173
-#, fuzzy
 msgid "Import"
-msgstr "Category Handling on Import"
+msgstr "Importeer"
 
 #: admin/admin-panel.php:268
-#, fuzzy
 msgid "Import Ad"
-msgstr "AWPCP Classifieds Management System: Import Ad"
+msgstr "Importeer advertentie"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:8
-#, fuzzy
 msgid "Import Testing Results"
-msgstr "Category Handling on Import"
+msgstr "Import Testing Results"
 
 #: import.php:199
 msgid "Import can't continue. Unknown column(s) specified(s):"
@@ -2644,9 +2577,8 @@ msgid "Import directory %s does not exists."
 msgstr "Import directory %s does not exists."
 
 #: admin/templates/admin-panel-uninstall.tpl.php:6
-#, fuzzy
 msgid "Important Information"
-msgstr "Advertentie informatie"
+msgstr "Belangrijke informatie"
 
 #: admin/templates/admin-panel-csv-importer.tpl.php:15
 msgid "Imported Picture count:"
@@ -2657,9 +2589,8 @@ msgid "Imported rows:"
 msgstr "Imported rows:"
 
 #: includes/settings-api.php:452
-#, fuzzy
 msgid "Include Ad access key in email messages"
-msgstr "Advertentie e-mail en toegangscode"
+msgstr "Include Ad access key in email messages"
 
 #: includes/settings-api.php:452
 msgid ""
@@ -4677,7 +4608,6 @@ msgid "Select Payment Term"
 msgstr "Voltooi betaling"
 
 #: frontend/templates/page-place-ad-order-step.tpl.php:2
-#, fuzzy
 msgctxt "place ad order step"
 msgid "Select Payment/Category"
 msgstr "Voltooi betaling"
