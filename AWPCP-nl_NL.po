@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/another-wordpress-classifieds-"
 "plugin\n"
 "POT-Creation-Date: 2014-09-09 22:44:34+00:00\n"
-"PO-Revision-Date: 2014-10-28 15:56+0100\n"
+"PO-Revision-Date: 2014-10-28 16:10+0100\n"
 "Last-Translator: Dennis Geus <dennis@hands-off.it>\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -3862,7 +3862,7 @@ msgstr "Selecteer een categorie"
 
 #: frontend/templates/payments-payment-terms-form-field.tpl.php:2
 msgid "Please select a payment term for your Ad"
-msgstr "Selecteer een betalings voorwaarde voor jouw advertentie"
+msgstr "Selecteer een advertentie type"
 
 #: frontend/page-place-ad.php:86
 msgid "Please select a payment term."
@@ -4398,7 +4398,7 @@ msgstr "Select Payment Term"
 #: frontend/templates/page-place-ad-order-step.tpl.php:2
 msgctxt "place ad order step"
 msgid "Select Payment/Category"
-msgstr "Voltooi betaling"
+msgstr "Selecteer betaling/category"
 
 #: includes/helpers/widgets/categories-dropdown.php:35
 msgid "Select a Category"
